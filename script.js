@@ -1,5 +1,8 @@
 rectX = 50;
 rectY = 50; 
+speedX = 6;
+speedY = 3;
+
 /**
  * setup
  * de code in deze functie wordt één keer uitgevoerd door
@@ -29,4 +32,14 @@ function draw() {
 
   rectX = rectX + 5; 
   rectY = rectY + 5;
+
+  rectX = rectX = speedX;
+  rectY = rectY = speedY;
+
+  if (rectX >=1280 ) {
+    speedX = speedX * -1
+
+  if (rectY >= 720 ) {}
+  }
+
 }
