@@ -1,3 +1,5 @@
+rectX = 50;
+rectY = 50; 
 /**
  * setup
  * de code in deze functie wordt één keer uitgevoerd door
@@ -21,6 +23,10 @@ function draw() {
   // stel vulkleur in
   fill(100, 100, 255);
 
-  // teken een cirkel
-  ellipse(50,90,80,80);
+  // teken een vierkant
+  rect(rectX, rectY, 55, 55, 20);
+
+
+  rectX = rectX + 5; 
+  rectY = rectY + 5;
 }
